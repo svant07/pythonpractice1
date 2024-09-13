@@ -33,6 +33,8 @@ class Pegasus(Horse, Eagle):
     def voice(self):
         print(self.sound)
 
+
+
 p1 = Pegasus()
 
 print(p1.get_pos())
