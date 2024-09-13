@@ -9,7 +9,6 @@ class Horse:
 
 
 class Eagle:
-
     def __init__(self):
         self.y_distance = 0
         self.sound = 'I train, eat, sleep, and repeat'
@@ -33,7 +32,6 @@ class Pegasus(Horse, Eagle):
 
     def voice(self):
         print(self.sound)
-
 
 p1 = Pegasus()
 
