@@ -1,5 +1,4 @@
 class Horse:
-
     def __init__(self):
         self.x_distance = 0
         self.sound = 'Frrr'
