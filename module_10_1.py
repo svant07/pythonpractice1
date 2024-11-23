@@ -40,6 +40,7 @@ thread_4.join()
 
 t2_stop = datetime.now()
 t2 = t2_stop - t2_start
+
 print(f'Затраченное время: {t2}')
 
 
